@@ -1,0 +1,102 @@
+[
+ {
+  "family": "Bills nobody can predict",
+  "threads": 76,
+  "pattern": "credit|pricing|price|expensive|cost|overage|token bill|per[- ]token|burn|\\$\\d"
+ },
+ {
+  "family": "Bugs and instability",
+  "threads": 49,
+  "pattern": "\\bbug|broken|crash|down(time)?\\b|unstable|fails?\\b|failed|error|glitch|stuck|loop"
+ },
+ {
+  "family": "Hard to set up",
+  "threads": 49,
+  "pattern": "learning curve|setup|set up|configur|onboard|complicated|complex|steep|confus"
+ },
+ {
+  "family": "Missing or weak integrations",
+  "threads": 49,
+  "pattern": "integration|connector|mcp|api access|doesn't (support|connect)|not supported|missing (tool|feature)"
+ },
+ {
+  "family": "Memory that is siloed and invisible",
+  "threads": 40,
+  "pattern": "memory|forget|forgot|remember|context (is|was|gets)|siloed|per[- ]channel|amnesia|stale"
+ },
+ {
+  "family": "Limits and caps",
+  "threads": 39,
+  "pattern": "limit|cap\\b|quota|rate[- ]limit|messages per|per week|throttl"
+ },
+ {
+  "family": "Clients and outsiders left out",
+  "threads": 35,
+  "pattern": "client|guest|external|outside (the )?(company|org)|slack connect|vendor|contractor"
+ },
+ {
+  "family": "Security and permissions that are too wide",
+  "threads": 31,
+  "pattern": "privacy|security|permission|data (leak|access|retention)|compliance|soc ?2|gdpr|access to (all|every)|over[- ]?permission"
+ },
+ {
+  "family": "Wrong answers",
+  "threads": 29,
+  "pattern": "hallucinat|wrong|inaccura|incorrect|made up|mistake|fabricat|unreliable answers"
+ },
+ {
+  "family": "Billing and cancellation",
+  "threads": 22,
+  "pattern": "cancel|refund|charged|billing|invoice|credit card|scam|subscription"
+ },
+ {
+  "family": "Everyone has their own AI",
+  "threads": 20,
+  "pattern": "duplicate|twice|same (email|task|work)|who (did|is doing|owns)|each (teammate|person) (has|had)|individual|not shared|shared (memory|context)"
+ },
+ {
+  "family": "No control, no undo",
+  "threads": 12,
+  "pattern": "undo|revert|rollback|irreversib|deleted|sent (an|the) email|without asking|approval|went rogue|destruct"
+ },
+ {
+  "family": "It doesn't actually act",
+  "threads": 11,
+  "pattern": "can't (do|act|take)|read[- ]only|just (a )?chat|only (answers|search|summar)|doesn't actually|glorified|wrapper"
+ },
+ {
+  "family": "Black box",
+  "threads": 10,
+  "pattern": "can't see|cannot see|no visibility|black box|opaque|don't know what|invisible|transparen"
+ },
+ {
+  "family": "Slow, with no feedback",
+  "threads": 8,
+  "pattern": "\\bslow\\b|latency|takes (too )?long|minutes to|waiting for"
+ },
+ {
+  "family": "Unreachable support",
+  "threads": 8,
+  "pattern": "support (is|was|team|never|didn)|no response|unresponsive|customer service|ticket"
+ },
+ {
+  "family": "Noise",
+  "threads": 8,
+  "pattern": "spam|noisy|noise|too many (messages|notifications)|annoying|verbose|chatty"
+ },
+ {
+  "family": "Generic output",
+  "threads": 5,
+  "pattern": "generic|mediocre|shallow|low quality|slop|not useful|useless|underwhelm|disappoint"
+ },
+ {
+  "family": "Needs babysitting",
+  "threads": 3,
+  "pattern": "babysit|supervis|double[- ]check|verify everything|can't trust|cannot trust|hand[- ]hold|micro-?manag|keep an eye"
+ },
+ {
+  "family": "Reserved for big plans",
+  "threads": 3,
+  "pattern": "enterprise only|enterprise plan|team plan|minimum seats|sales call|contact sales|not available|waitlist"
+ }
+]
